@@ -1,0 +1,126 @@
+# This is the OpenMW user 'settings.cfg' file.  This file only contains
+# explicitly changed settings.  If you would like to revert a setting
+# to its default, simply remove it from this file.  For available
+# settings, see the file 'files/settings-default.cfg' in our source repo or the documentation at:
+#
+#   https://openmw.readthedocs.io/en/master/reference/modding/settings/index.html
+
+[Shaders]
+lighting method = shaders compatibility
+apply lighting to environment maps = true
+auto use object normal maps = true
+auto use object specular maps = true
+auto use terrain normal maps = true
+auto use terrain specular maps = true
+radial fog = true
+max lights = 32
+minimum interior brightness = 0.145215
+light bounds multiplier = 0
+light fade start = 0
+maximum light distance = 0
+
+[Sound]
+device = 
+hrtf = 
+hrtf enable = 0
+footsteps volume = 0.520752
+sfx volume = 0.792279
+buffer cache max = 64
+
+[Camera]
+deferred preview rotation = false
+head bobbing = true
+head bobbing step = 120.0
+head bobbing height = 6.0
+head bobbing roll = 0.5
+preview if stand still = true
+view over shoulder = true
+field of view = 75
+viewing distance = 3007
+zoom out when move coef = 60
+third person camera distance = 195.42
+
+[GUI]
+color topic enable = true
+scaling factor = 0.85
+stretch menu background = true
+subtitles = true
+tooltip delay = 0
+menu transparency = 0.750775
+
+[Game]
+barter disposition change is permanent = true
+can loot during death animation = false
+normalise race speed = true
+prevent merchant equipping = true
+show effect duration = true
+show enchant chance = true
+show melee info = true
+show owned = 1
+show projectile damage = true
+smooth movement = true
+strength influences hand to hand = 1
+swim upward correction = true
+trainers training skills based on base skill = true
+turn to movement direction = true
+use additional anim sources = true
+use magic item animations = true
+weapon sheathing = true
+shield sheathing = true
+NPCs avoid collisions = true
+uncapped damage fatigue = true
+difficulty = 100
+actors processing range = 3584
+always allow stealing from knocked out actors = true
+
+[Input]
+grab cursor = false
+toggle sneak = true
+always run = true
+
+[Physics]
+async num threads = 1
+
+[Saves]
+max quicksaves = 3
+timeplayed = true
+character = TEST
+
+[Shadows]
+maximum shadow map distance = 2048
+actor shadows = true
+enable shadows = true
+object shadows = true
+player shadows = true
+terrain shadows = true
+
+[Video]
+antialiasing = 16
+window border = false
+framerate limit = 120
+resolution x = 1600
+resolution y = 900
+
+[General]
+anisotropy = 16
+texture mipmap = linear
+
+[Groundcover]
+enabled = true
+density = 0.25
+min chunk size = 0.5
+stomp mode = 2
+stomp intensity = 2
+
+[Water]
+shader = true
+reflection detail = 2
+refraction = true
+
+[Terrain]
+distant terrain = false
+object paging = false
+object paging min size = 0
+
+[Map]
+global = true
